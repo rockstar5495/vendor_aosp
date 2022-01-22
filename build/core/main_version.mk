@@ -25,4 +25,5 @@ ADDITIONAL_SYSTEM_PROPERTIES  += \
     org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
     org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
     org.pixelexperience.build_type=$(RAVEN_BUILD_TYPE) \
-    org.raven.version=$(BUILD_TYPE)
+    org.raven.version=$(BUILD_TYPE) \
+    ro.raven.maintainer=$(RAVEN_MAINTAINER)
